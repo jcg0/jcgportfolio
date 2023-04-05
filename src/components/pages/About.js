@@ -2,7 +2,7 @@ import React from "react";
 import cardImg from "../../assets/profileImg.webp";
 function About() {
   return (
-    <div className="card card-side bg-base-100 border m-24">
+    <div className="card card-side bg-base-100 border sm:w-auto m-24">
       <figure>
         <img src={cardImg} className="w-auto" alt="Movie" />
       </figure>
