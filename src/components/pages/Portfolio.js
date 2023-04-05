@@ -12,6 +12,7 @@ const images = [
   {
     img: sweetSolution,
     name: "Sweet Solution",
+    url: "https://sweet-solution.herokuapp.com/",
   },
   {
     img: weatherapp,
@@ -36,6 +37,7 @@ const images = [
   {
     img: ccp3,
     name: "Code Collective",
+    url: "https://code-collectives.herokuapp.com/",
   },
 ];
 
@@ -47,7 +49,7 @@ function Portfolio() {
       </h1>
       <div className="flex flex-row flex-wrap justify-center ">
         {images.map((images) => (
-          <Project projects={images.img} name={images.name} />
+          <Project projects={images.img} name={images.name} url={images.url} />
         ))}
       </div>
     </div>
