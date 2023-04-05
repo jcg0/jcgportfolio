@@ -17,22 +17,27 @@ const images = [
   {
     img: weatherapp,
     name: "Weather App",
+    url: "https://jcg0.github.io/mod6-challenge/",
   },
   {
     img: recipez,
     name: "Recipez",
+    url: "https://jcg0.github.io/project-1-recipesy/",
   },
   {
     img: mongobackend,
     name: "MongoDB Backend",
+    url: "https://github.com/jcg0/18-mongodb-mongoose-backend",
   },
   {
     img: mysqlbackend,
     name: "MySQL Backend",
+    url: "https://github.com/jcg0/13jg-ecommerce-backend",
   },
   {
     img: expressnotetaker,
     name: "Express Note Taker",
+    url: "https://express-note-taker-app.herokuapp.com/",
   },
   {
     img: ccp3,
