@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-ul {
+  display: flex;
+  /* flex-direction: row;
+  justify-content: space-around; */
+}
+
+.nav-ul li {
+  padding: 10px;
+}
+
+.aboutme-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-ul li {
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px;
+  }
+
+  .prof-img {
+    display: none;
+  }
+
+  .name{ 
+    font-size: 120%;
+  }
+}

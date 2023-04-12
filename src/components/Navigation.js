@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="flex flex-row justify-around space-x-8 ">
+    <ul className="nav-ul">
       <li>
         <a href="#about" onClick={() => handlePageChange("About")}>
           About Me
