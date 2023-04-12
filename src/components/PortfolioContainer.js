@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Header from "./Header";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -31,7 +31,6 @@ function PortfolioContainer() {
     <div className="">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
     </div>
   );
 }
