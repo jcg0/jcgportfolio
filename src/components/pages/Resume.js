@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../../assets/JeffersonGriebelResume.pdf";
+import pdf from "../../assets/JeffersonGriebelResume__.pdf";
 
 function Resume() {
   return (
