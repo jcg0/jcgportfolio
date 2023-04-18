@@ -2,8 +2,8 @@ import React from "react";
 import cardImg from "../../assets/FullSizeRender.jpg";
 function About() {
   return (
-    <div className="aboutme-card mt-24 mb-24 bg-neutral">
-      <div className="card card-side bg-base-100 border sm:w-full md:w-1/2 lg:w-1/2 xl:w-1/2 shadow-xl">
+    <div className="aboutme-card mt-24 bg-neutral">
+      <div className="card card-side bg-base-100 border sm:w-full md:w-1/2 lg:w-1/2 xl:w-1/2 shadow-xl mb-24">
         <div className="carousel rounded-box">
           <div className="carousel-item sm:w-full md:w-full lg:w-full xl:w-full max-h-full">
             <img
