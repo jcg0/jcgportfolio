@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jcgportfolio/static/css/main.a36a8dd1.css",
-    "main.js": "/jcgportfolio/static/js/main.1e4f0622.js",
+    "main.css": "/jcgportfolio/static/css/main.f06ef4bb.css",
+    "main.js": "/jcgportfolio/static/js/main.689e10b5.js",
     "static/media/FullSizeRender.jpg": "/jcgportfolio/static/media/FullSizeRender.e0b90b3887f4af3159e8.jpg",
     "static/media/recipez.png": "/jcgportfolio/static/media/recipez.14bdeef24f12a9811f47.png",
     "static/media/mysqlbackend.png": "/jcgportfolio/static/media/mysqlbackend.d4a228c5aedd4157588b.png",
@@ -12,11 +12,11 @@
     "static/media/expressnotetaker.png": "/jcgportfolio/static/media/expressnotetaker.fc63778d2bf93dd6bcec.png",
     "static/media/sweetsolution.png": "/jcgportfolio/static/media/sweetsolution.bfbcaad88d620c5b2e9b.png",
     "index.html": "/jcgportfolio/index.html",
-    "main.a36a8dd1.css.map": "/jcgportfolio/static/css/main.a36a8dd1.css.map",
-    "main.1e4f0622.js.map": "/jcgportfolio/static/js/main.1e4f0622.js.map"
+    "main.f06ef4bb.css.map": "/jcgportfolio/static/css/main.f06ef4bb.css.map",
+    "main.689e10b5.js.map": "/jcgportfolio/static/js/main.689e10b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a36a8dd1.css",
-    "static/js/main.1e4f0622.js"
+    "static/css/main.f06ef4bb.css",
+    "static/js/main.689e10b5.js"
   ]
 }
