@@ -53,16 +53,16 @@ function Contact() {
     <div>
       <form
         action=""
-        className="flex flex-col items-center mt-36 space-y-4"
+        className="flex flex-col items-center mt-36  space-y-4 "
         onSubmit={handleSubmit}
       >
-        <h1 className="text-4xl text-stone-200 font-extrabold">Contact Me</h1>
-        <div className="card border">
-          <label className="text-center text-xl text-stone-200 font-extrabold">
+        <h1 className="text-4xl text-secondary font-extrabold">Contact Me</h1>
+        <div className="card border shadow-xl">
+          <label className="text-center text-xl text-neutral bg-accent rounded-t-2xl font-extrabold">
             Name
           </label>
           <input
-            className="input-md rounded-b-2xl"
+            className="input-md text-black rounded-b-2xl"
             type="text"
             value={name}
             name="name"
@@ -71,12 +71,12 @@ function Contact() {
             required
           />
         </div>
-        <div className="card border">
-          <label className="text-center text-xl text-stone-200 font-extrabold">
+        <div className="card border shadow-xl">
+          <label className="text-center text-xl text-neutral bg-accent rounded-t-2xl font-extrabold">
             Email
           </label>
           <input
-            className="input-md rounded-b-2xl"
+            className="input-md text-black rounded-b-2xl"
             required
             type="email"
             value={email}
@@ -85,13 +85,13 @@ function Contact() {
             onChange={handleInputChange}
           />
         </div>
-        <div className="card border">
-          <label className="text-center text-xl text-stone-200 font-extrabold">
+        <div className="card border shadow-xl">
+          <label className="text-center text-xl text-neutral bg-accent rounded-t-2xl font-extrabold">
             Message
           </label>
           <textarea
             placeholder="message"
-            className="textarea-md rounded-b-2xl"
+            className="textarea-md text-black rounded-b-2xl"
             name="message"
             id="message"
             value={message}
@@ -101,7 +101,7 @@ function Contact() {
           ></textarea>
         </div>
         <button
-          className="btn bg-secondary mt-5"
+          className="btn btn-lg bg-secondary text-neutral mt-5 shadow-xl"
           type="button"
           onClick={() => {}}
         >
@@ -110,7 +110,7 @@ function Contact() {
       </form>
       {errorMessage && (
         <div>
-          <p>{errorMessage}</p>
+          <p className="text-black text-center text-2xl">{errorMessage}</p>
         </div>
       )}
     </div>

@@ -56,7 +56,7 @@ const images = [
 function Portfolio() {
   return (
     <div>
-      <h1 className="text-4xl text-stone-200 font-extrabold flex flex-col items-center mt-36">
+      <h1 className="text-4xl text-secondary font-extrabold flex flex-col items-center mt-36">
         Portfolio
       </h1>
       <div className="flex flex-row flex-wrap justify-center mb-12 pb-5">

@@ -1,11 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #ebebeb;
+}
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .nav-ul {
@@ -16,6 +29,10 @@
 
 .nav-ul li {
   padding: 10px;
+}
+
+.name {
+  align-items: center;
 }
 
 .aboutme-card {

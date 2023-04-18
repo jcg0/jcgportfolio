@@ -28,7 +28,7 @@ function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="">
+    <div className="bg-neutral">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

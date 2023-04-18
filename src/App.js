@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+// import "./App.css";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Footer from "./components/Footer";
 
@@ -14,7 +14,7 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 function App() {
   return (
     <div>
-      <PortfolioContainer />
+      <PortfolioContainer className="bg-neutral" />
       <Footer />
     </div>
   );

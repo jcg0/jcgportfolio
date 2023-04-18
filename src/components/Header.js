@@ -4,7 +4,7 @@ import "../index.css";
 
 function Header(props) {
   return (
-    <div className="header text-4xl text-stone-200 font-extrabold ">
+    <div className="header text-4xl text-neutral font-extrabold bg-accent shadow-xl">
       <p className="name">Jefferson Griebel</p>
       <Navigation handlePageChange={props.handlePageChange} />
     </div>
