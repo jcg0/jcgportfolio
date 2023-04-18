@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jcgportfolio/static/css/main.6e04dd16.css",
-    "main.js": "/jcgportfolio/static/js/main.0e84fe87.js",
+    "main.css": "/jcgportfolio/static/css/main.504b0434.css",
+    "main.js": "/jcgportfolio/static/js/main.51fdcba3.js",
+    "static/media/FullSizeRender.jpg": "/jcgportfolio/static/media/FullSizeRender.e0b90b3887f4af3159e8.jpg",
     "static/media/recipez.png": "/jcgportfolio/static/media/recipez.14bdeef24f12a9811f47.png",
     "static/media/mysqlbackend.png": "/jcgportfolio/static/media/mysqlbackend.d4a228c5aedd4157588b.png",
     "static/media/mongobackend.png": "/jcgportfolio/static/media/mongobackend.ef43db10d2680dd57822.png",
-    "static/media/JeffersonGriebelResume.pdf": "/jcgportfolio/static/media/JeffersonGriebelResume.97223240086f9fb0dcb2.pdf",
+    "static/media/codecollective.png": "/jcgportfolio/static/media/codecollective.23715319dfbec380c2c0.png",
     "static/media/weatherapp.png": "/jcgportfolio/static/media/weatherapp.6ad92e75c3a91e6d2312.png",
-    "static/media/profileImg.webp": "/jcgportfolio/static/media/profileImg.1dd41bf1be5c283d57c6.webp",
+    "static/media/JeffersonGriebelResume__.pdf": "/jcgportfolio/static/media/JeffersonGriebelResume__.4d7dd925913bdf217899.pdf",
     "static/media/expressnotetaker.png": "/jcgportfolio/static/media/expressnotetaker.fc63778d2bf93dd6bcec.png",
     "static/media/sweetsolution.png": "/jcgportfolio/static/media/sweetsolution.bfbcaad88d620c5b2e9b.png",
-    "static/media/ccp3.png": "/jcgportfolio/static/media/ccp3.8427cded5bc7638c3de0.png",
     "index.html": "/jcgportfolio/index.html",
-    "main.6e04dd16.css.map": "/jcgportfolio/static/css/main.6e04dd16.css.map",
-    "main.0e84fe87.js.map": "/jcgportfolio/static/js/main.0e84fe87.js.map"
+    "main.504b0434.css.map": "/jcgportfolio/static/css/main.504b0434.css.map",
+    "main.51fdcba3.js.map": "/jcgportfolio/static/js/main.51fdcba3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e04dd16.css",
-    "static/js/main.0e84fe87.js"
+    "static/css/main.504b0434.css",
+    "static/js/main.51fdcba3.js"
   ]
 }
