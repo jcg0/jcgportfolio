@@ -10,6 +10,12 @@ import codecollective from "../../assets/codecollective.png";
 
 const images = [
   {
+    img: codecollective,
+    name: "Code Collective",
+    url: "https://code-collectives.herokuapp.com/",
+    github: "https://github.com/jcg0/code-collective-project-3",
+  },
+  {
     img: sweetSolution,
     name: "Sweet Solution",
     url: "https://sweet-solution.herokuapp.com/",
@@ -44,12 +50,6 @@ const images = [
     name: "Express Note Taker",
     url: "https://express-note-taker-app.herokuapp.com/",
     github: "https://github.com/jcg0/jg-express-note-taker",
-  },
-  {
-    img: codecollective,
-    name: "Code Collective",
-    url: "https://code-collectives.herokuapp.com/",
-    github: "https://github.com/jcg0/code-collective-project-3",
   },
 ];
 
