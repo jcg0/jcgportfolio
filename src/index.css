@@ -24,6 +24,31 @@
   align-items: center;
 }
 
+.skills{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.skills h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 2px;
+  /* align-content: baseline; */
+}
+
+.skills ul li a {
+  font-size: 150%;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -47,5 +72,12 @@
 
   .name{ 
     font-size: 120%;
+  }
+
+  .skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
   }
 }
